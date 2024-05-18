@@ -1,3 +1,20 @@
-# code-beaker-fmentor-stats
+# Frontend Mentor Stats website
+A website showing my stats at **[frontendmentor.io](https://frontendmentor.io)** so far.
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/Code-Beaker/code-beaker-fmentor-stats)
+## Table Of Contents
+- [Built With](#built-with-stackblitz)
+- [Languages](#languages)
+- [Technologies](#technologies)
+
+## Built with StackBlitz
+This website is created using [StackBlitz](https://stackblitz.com)
+
+## Languages
+- HTML
+- CSS
+- JavaScript
+
+## Technologies
+- `grid`
+- `aria` attributes for accessibility
+- `Date()` object
