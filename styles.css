@@ -103,7 +103,7 @@ hr {
 }
 
 .info-item {
-  border: 0.25rem solid black;
+  border: 0.15rem solid black;
   border-radius: 0.5rem;
   padding: 1rem;
   transition: 100ms ease;
@@ -169,7 +169,15 @@ footer {
 }
 
 @media (width < 35rem) {
+  .heading {
+    font-size: 1.75rem;
+  }
+
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  footer {
+    padding: 1rem 0;
   }
 }
