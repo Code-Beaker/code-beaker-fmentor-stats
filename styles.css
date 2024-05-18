@@ -13,6 +13,7 @@ body {
 main {
   padding: 4rem;
   max-width: 75rem;
+  min-height: 100vh;
 }
 
 .heading {
@@ -160,6 +161,11 @@ hr {
   color: white;
   background-color: gold;
   display: inline-block;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
 }
 
 @media (width < 35rem) {
