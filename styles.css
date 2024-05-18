@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  padding: 4rem;
+  max-width: 75rem;
+}
+
+.heading {
+  /* font-family: 'Montserrat', sans-serif; */
+  /* text-align: center; */
+  font-size: 2.75rem;
+  color: rgb(68, 15, 121);
+  margin-bottom: 1rem;
+}
+
+hr {
+  border-radius: 0.5rem;
+  border: 0.125rem solid black;
+  margin-block: 2rem;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-block: 1rem;
+}
+
+.text {
+  font-size: 1.15rem;
+}
+
+.link {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: steelblue;
+  font-family: 'Inter', sans-serif;
+  display: inline-flex;
+  gap: 1rem;
+  outline-offset: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-block: 0.75rem;
+  padding-bottom: 0.175rem;
+  position: relative;
+  transition: 100ms color linear;
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  height: 0.175rem;
+  display: block;
+  width: 100%;
+  border-radius: 0.25rem;
+  bottom: 0;
+  background-color: steelblue;
+}
+
+.link:hover {
+  color: rgb(65, 106, 139);
+}
+
+.link img {
+  max-width: 1rem;
+}
+
+.link:visited {
+  outline: 0.25rem dotted;
+  outline-color: invert;
+}
+
+.link:hover::after {
+  display: none;
+}
+
+.link:focus {
+  outline: 0.25rem dotted;
+  outline-color: invert;
+}
+
+.text {
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.info-item {
+  border: 0.25rem solid black;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  transition: 100ms ease;
+}
+
+.info-item:hover {
+  background-color: rgba(100, 100, 200, 0.25);
+}
+
+.info-item-title {
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.count {
+  font-size: 1.75rem;
+}
+
+.skill-level {
+  margin-block: 1rem;
+  border-radius: 0.25rem;
+}
+
+#junior {
+  padding: 0.25rem 0.5rem;
+  font-weight: 600;
+  color: black;
+  background-color: rgb(113, 255, 47);
+  display: inline-block;
+}
+
+#newbie {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.125rem;
+  font-weight: 600;
+  color: white;
+  background-color: dodgerblue;
+  display: inline-block;
+}
+
+#advanced {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.125rem;
+  font-weight: 600;
+  color: white;
+  background-color: orange;
+  display: inline-block;
+}
+
+#intermediate {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.125rem;
+  font-weight: 600;
+  color: white;
+  background-color: gold;
+  display: inline-block;
+}
+
+@media (width < 35rem) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
