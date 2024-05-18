@@ -110,6 +110,7 @@ hr {
 }
 
 .info-item:hover {
+  scale: 1.025;
   background-color: rgba(100, 100, 200, 0.25);
 }
 
